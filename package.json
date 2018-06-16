@@ -1,0 +1,43 @@
+{
+  "name": "jest-environment-mysql",
+  "version": "1.0.0",
+  "description": "MySQL Environment for Jest",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorgoolsby/jest-environment-mysql.git"
+  },
+  "author": "Taylor Goolsby <croolsby@gmail.com> (https://github.com/taylorgoolsby)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/taylorgoolsby/jest-environment-mysql/issues"
+  },
+  "homepage": "https://github.com/taylorgoolsby/jest-environment-mysql#readme",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "jest-environment-node": "^23.1.0",
+    "mysql-server-5.7-osx-x64": "^5.7.22006"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "jest": "^23.1.0",
+    "mysql": "^2.15.0",
+    "run-sequence": "^2.2.1"
+  }
+}
