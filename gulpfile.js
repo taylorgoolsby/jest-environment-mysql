@@ -17,7 +17,7 @@ gulp.task('build', function() {
 })
 
 gulp.task('cleanBuild', function(cb) {
-  del(['build']).then(() => cb())
+  del(['lib']).then(() => cb())
 })
 
 gulp.task('babelBuild', function() {
@@ -26,5 +26,5 @@ gulp.task('babelBuild', function() {
     .pipe(sourcemaps.init())
     .pipe(babel())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('lib'))
 })

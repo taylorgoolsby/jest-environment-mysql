@@ -1,1 +1,4 @@
-module.exports = require('./build/MysqlEnvironment').default
+module.exports = {
+  globalSetup: require('./lib/globalSetup'),
+  globalTeardown: require('./lib/globalTeardown')
+}

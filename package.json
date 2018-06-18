@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-mysql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MySQL Environment for Jest",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "test": "jest"
   },
   "jest": {
-    "testEnvironment": "./index"
+    "globalSetup": "./lib/globalSetup.js",
+    "globalTeardown": "./lib/globalTeardown.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,6 @@
   "homepage": "https://github.com/taylorgoolsby/jest-environment-mysql#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "jest-environment-node": "^23.1.0",
     "mysql-server-5.7-osx-x64": "^5.7.22006"
   },
   "devDependencies": {
