@@ -11,6 +11,7 @@ Currently, the only operating system supported is OSX x64.
 Update your Jest configuration:
 ```
 {
-  "testEnvironment": "jest-environment-mysql"
+  "globalSetup": "jest-environment-mysql/lib/globalSetup",
+  "globalTeardown": "jest-environment-mysql/lib/globalTeardown"
 }
 ```
