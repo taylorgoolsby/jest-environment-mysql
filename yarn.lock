@@ -1606,10 +1606,6 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-2.0.1.tgz#1ee8010689e7395ff9448241c98652bc759a8260"
-
 extend@^3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
@@ -3295,11 +3291,11 @@ mute-stdout@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mute-stdout/-/mute-stdout-1.0.0.tgz#5b32ea07eb43c9ded6130434cf926f46b2a7fd4d"
 
-mysql-server-5.7-osx-x64@^5.7.22006:
-  version "5.7.22007"
-  resolved "https://registry.yarnpkg.com/mysql-server-5.7-osx-x64/-/mysql-server-5.7-osx-x64-5.7.22007.tgz#41e0ed3b0c56976d44916f32c83fbc87b2b3b9ba"
+mysql-server-5.7-osx-x64@^5.7.22011:
+  version "5.7.22011"
+  resolved "https://registry.yarnpkg.com/mysql-server-5.7-osx-x64/-/mysql-server-5.7-osx-x64-5.7.22011.tgz#1dfd901e95fbe8ac4d128a04faecc80e0127956f"
   dependencies:
-    extend "^2.0.0"
+    mysql "^2.15.0"
 
 mysql@^2.15.0:
   version "2.15.0"

@@ -23,7 +23,7 @@
   "homepage": "https://github.com/taylorgoolsby/jest-environment-mysql#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "mysql-server-5.7-osx-x64": "^5.7.22006"
+    "mysql-server-5.7-osx-x64": "^5.7.22011"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
