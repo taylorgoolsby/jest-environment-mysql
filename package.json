@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-mysql",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "MySQL Environment for Jest",
   "main": "index.js",
   "scripts": {
