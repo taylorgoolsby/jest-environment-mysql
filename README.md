@@ -8,6 +8,10 @@ Currently, the only operating system supported is OSX x64.
 
 ### Installation
 
+```
+yarn add --dev jest-environment-mysql mysql-server-5.7-osx-x64
+```
+
 Update your Jest configuration:
 ```
 {
