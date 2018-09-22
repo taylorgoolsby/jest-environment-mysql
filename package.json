@@ -1,15 +1,18 @@
 {
   "name": "jest-environment-mysql",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "MySQL Environment for Jest",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
-    "test": "jest"
+    "test": "gulp build && jest"
   },
   "jest": {
     "globalSetup": "./lib/globalSetup.js",
-    "globalTeardown": "./lib/globalTeardown.js"
+    "globalTeardown": "./lib/globalTeardown.js",
+    "globals": {
+      "__TEST__": true
+    }
   },
   "repository": {
     "type": "git",
@@ -37,10 +40,10 @@
     "gulp-sourcemaps": "^2.6.4",
     "jest": "^23.1.0",
     "mysql": "^2.15.0",
-    "mysql-server-5.7-osx-x64": "^5.7.22011",
+    "mysql-server-5.7-osx-x64": "^5.7.22013",
     "run-sequence": "^2.2.1"
   },
   "peerDependencies": {
-    "mysql-server-5.7-osx-x64": "^5.7.22011"
+    "mysql-server-5.7-osx-x64": "^5.7.22013"
   }
 }

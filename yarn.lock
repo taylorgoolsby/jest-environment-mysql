@@ -3291,9 +3291,9 @@ mute-stdout@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mute-stdout/-/mute-stdout-1.0.0.tgz#5b32ea07eb43c9ded6130434cf926f46b2a7fd4d"
 
-mysql-server-5.7-osx-x64@^5.7.22011:
-  version "5.7.22011"
-  resolved "https://registry.yarnpkg.com/mysql-server-5.7-osx-x64/-/mysql-server-5.7-osx-x64-5.7.22011.tgz#1dfd901e95fbe8ac4d128a04faecc80e0127956f"
+mysql-server-5.7-osx-x64@^5.7.22013:
+  version "5.7.22013"
+  resolved "https://registry.yarnpkg.com/mysql-server-5.7-osx-x64/-/mysql-server-5.7-osx-x64-5.7.22013.tgz#9019eec2f34e4a202e9887163351aafa4285b4f5"
   dependencies:
     mysql "^2.15.0"
 

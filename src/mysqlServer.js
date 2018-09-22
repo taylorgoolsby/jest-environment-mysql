@@ -11,23 +11,9 @@ export const mysqlServerReady = function() {
 
   if (!readySet) {
     mysqld = startMysql(null, {reinitialize: false})
-    startingPromise = new Promise((resolve, reject) => {
-      mysqld.stderr.on('data', (data) => {
-        if (!/\[Note]/.test(data)) {
-          console.log(data.toString())
-        }
-        // console.log(data.toString())
-
-        const ready =
-          !!data.toString().match(/MySQL Community Server/);
-
-        if (ready) {
-          console.log('mysql server ready')
-          readySet = true
-          startingPromise = null
-          resolve()
-        }
-      })
+    startingPromise = mysqld.ready.then(() => {
+      readySet = true
+      startingPromise = null
     })
     return startingPromise
   } else {
