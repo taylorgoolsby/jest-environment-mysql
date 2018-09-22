@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-mysql",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "MySQL Environment for Jest",
   "main": "index.js",
   "scripts": {
@@ -44,6 +44,6 @@
     "run-sequence": "^2.2.1"
   },
   "peerDependencies": {
-    "mysql-server-5.7-osx-x64": "^100.0.0"
+    "mysql-server-5.7-osx-x64": "^100.0.3"
   }
 }

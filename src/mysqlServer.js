@@ -27,15 +27,15 @@ export const stopMysqlServer = function() {
   }
 
   stoppingPromise = new Promise((resolve, reject) => {
-    mysqlServerReady().then(() => mysqld.stop())
-    mysqld.on('close', () => {
-      console.log('stopped mysql server')
-      mysqld = null
-      startingPromise = null
-      readySet = false
-      stoppingPromise = null
-      resolve()
-    })
+    mysqlServerReady().then(() => {
+      return mysqld.stop()
+    }).then(() => {
+      mysqld = null;
+      startingPromise = null;
+      readySet = false;
+      stoppingPromise = null;
+      resolve();
+    }).catch(err => reject(err));
   })
   return stoppingPromise
 }
