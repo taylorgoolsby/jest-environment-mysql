@@ -1,4 +1,10 @@
-import startMysql from "mysql-server-5.7-osx-x64";
+
+let startMysql
+if (process.platform === 'win32') {
+  startMysql = require('mysql-server-5.7-win-x64')
+} else {
+  startMysql = require('mysql-server-5.7-osx-x64')
+}
 
 let mysqld = null
 let startingPromise = null
