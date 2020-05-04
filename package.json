@@ -42,12 +42,12 @@
     "jest": "^23.1.0",
     "mysql": "^2.15.0",
     "mysql-server-5.7-osx-x64": "^100.0.7",
-    "mysql-server-5.7-win-x64": "taylorgoolsby/mysql-server-5.7-win-x64",
+    "mysql-server-5.7-win-x64": "^1.0.0",
     "natives": "^1.1.6",
     "run-sequence": "^2.2.1"
   },
   "peerDependencies": {
-    "mysql-server-5.7-osx-x64": "^100.0.7",
-    "mysql-server-5.7-win-x64": "taylorgoolsby/mysql-server-5.7-win-x64"
+    "mysql-server-5.7-osx-x64": "*",
+    "mysql-server-5.7-win-x64": "*"
   }
 }
