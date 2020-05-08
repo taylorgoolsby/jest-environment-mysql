@@ -3783,6 +3783,13 @@ mute-stdout@^1.0.0:
   resolved "https://registry.yarnpkg.com/mute-stdout/-/mute-stdout-1.0.1.tgz#acb0300eb4de23a7ddeec014e3e96044b3472331"
   integrity sha512-kDcwXR4PS7caBpuRYYBUz9iVixUk3anO3f5OYFiIPwK/20vCzKCHyKoulbiDY1S53zD2bxUpxN/IJ+TnXjfvxg==
 
+"mysql-server-5.7-lin-x64@git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git":
+  version "1.0.0"
+  resolved "git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git#e3cbb713f4a69a819aad046e194f25569f1f703e"
+  dependencies:
+    cosmiconfig "^5.0.6"
+    mysql "^2.15.0"
+
 mysql-server-5.7-osx-x64@^100.0.7:
   version "100.0.7"
   resolved "https://registry.yarnpkg.com/mysql-server-5.7-osx-x64/-/mysql-server-5.7-osx-x64-100.0.7.tgz#26d9420bb8498db5fbc133438efa66880685870f"
