@@ -3783,9 +3783,10 @@ mute-stdout@^1.0.0:
   resolved "https://registry.yarnpkg.com/mute-stdout/-/mute-stdout-1.0.1.tgz#acb0300eb4de23a7ddeec014e3e96044b3472331"
   integrity sha512-kDcwXR4PS7caBpuRYYBUz9iVixUk3anO3f5OYFiIPwK/20vCzKCHyKoulbiDY1S53zD2bxUpxN/IJ+TnXjfvxg==
 
-"mysql-server-5.7-lin-x64@git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git":
+mysql-server-5.7-lin-x64@^1.0.0:
   version "1.0.0"
-  resolved "git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git#e3cbb713f4a69a819aad046e194f25569f1f703e"
+  resolved "https://registry.yarnpkg.com/mysql-server-5.7-lin-x64/-/mysql-server-5.7-lin-x64-1.0.0.tgz#a31e5842852bf836677990ab8e38dd63b9b7cd37"
+  integrity sha512-sqN27i3jvB3dIQiMYUH4Ure0M7zAba4W9+WI9+T21BXn8mc5Oq2XbD7zpjSDUHNYBki+QB6nZ7NKiqNerrz2/w==
   dependencies:
     cosmiconfig "^5.0.6"
     mysql "^2.15.0"
@@ -5109,9 +5110,9 @@ timers-ext@^0.1.5:
     next-tick "1"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
