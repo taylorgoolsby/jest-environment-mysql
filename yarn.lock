@@ -3742,9 +3742,9 @@ minimatch@~0.2.11:
     sigmund "~1.0.0"
 
 minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -3783,9 +3783,10 @@ mute-stdout@^1.0.0:
   resolved "https://registry.yarnpkg.com/mute-stdout/-/mute-stdout-1.0.1.tgz#acb0300eb4de23a7ddeec014e3e96044b3472331"
   integrity sha512-kDcwXR4PS7caBpuRYYBUz9iVixUk3anO3f5OYFiIPwK/20vCzKCHyKoulbiDY1S53zD2bxUpxN/IJ+TnXjfvxg==
 
-"mysql-server-5.7-lin-x64@git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git":
+mysql-server-5.7-lin-x64@^1.0.0:
   version "1.0.0"
-  resolved "git+https://gitlab.com/taylorgoolsby/mysql-server-5.7-lin-x64.git#e3cbb713f4a69a819aad046e194f25569f1f703e"
+  resolved "https://registry.yarnpkg.com/mysql-server-5.7-lin-x64/-/mysql-server-5.7-lin-x64-1.0.0.tgz#a31e5842852bf836677990ab8e38dd63b9b7cd37"
+  integrity sha512-sqN27i3jvB3dIQiMYUH4Ure0M7zAba4W9+WI9+T21BXn8mc5Oq2XbD7zpjSDUHNYBki+QB6nZ7NKiqNerrz2/w==
   dependencies:
     cosmiconfig "^5.0.6"
     mysql "^2.15.0"
