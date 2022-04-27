@@ -41,14 +41,14 @@
     "gulp-sourcemaps": "^2.6.4",
     "jest": "^23.1.0",
     "mysql": "^2.15.0",
-    "mysql-server-8-osx-x64": "^100.1.8",
+    "mysql-server-8-osx-x64": "^100.1.9",
     "mysql-server-8-win-x64": "^1.1.1",
     "mysql-server-5.7-lin-x64": "^1.0.0",
     "natives": "^1.1.6",
     "run-sequence": "^2.2.1"
   },
   "peerDependencies": {
-    "mysql-server-8-osx-x64": "^100.1.8",
+    "mysql-server-8-osx-x64": "^100.1.9",
     "mysql-server-8-win-x64": "^1.1.1",
     "mysql-server-5.7-lin-x64": "^1.0.0"
   }
