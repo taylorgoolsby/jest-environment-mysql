@@ -1,9 +1,9 @@
 
 let startMysql
 if (process.platform === 'win32') {
-  startMysql = require('mysql-server-5.7-win-x64')
+  startMysql = require('mysql-server-8-win-x64')
 } else if (process.platform === 'darwin') {
-  startMysql = require('mysql-server-5.7-osx-x64')
+  startMysql = require('mysql-server-8-osx-x64')
 } else {
   startMysql = require('mysql-server-5.7-lin-x64')
 }
